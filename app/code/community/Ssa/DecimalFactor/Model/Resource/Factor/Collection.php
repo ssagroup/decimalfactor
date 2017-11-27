@@ -40,13 +40,14 @@ class Ssa_DecimalFactor_Model_Resource_Factor_Collection extends Mage_Core_Model
      */
     public function getAllOrderIds()
     {
-        $select = $this->getSelect()->from([$this->getMainTable()],[
-            'order_id'
-        ]);
-		$select->group('main_table.order_id');
+        $select = $this->getSelect()->from([$this->getMainTable()]);
 
+        $select->reset(Zend_Db_Select::COLUMNS);
+        $select->columns('main_table.order_id');
+        $select->group('main_table.order_id');
+		
         $connection = $this->getResource()->getReadConnection();
-        $itemsData = $connection->fetchAll($select);
+        $itemsData = $connection->fetchCol($select);
 
         return $itemsData;
     }
