@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Andrey Makienko <andrey.makienko@ssa-outsourcing.com>
+ * @website     https://www.ssa.group
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <ssa_decimalfactor module="ssa_decimalfactor">
+                                        <title>SSA Extensions</title>
+                                    </ssa_decimalfactor>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

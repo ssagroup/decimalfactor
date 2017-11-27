@@ -1,0 +1,15 @@
+{
+  "name":"ssagroup/testrepo",
+  "type":"magento-module",
+  "license":"OSL-3.0",
+  "description":"Magento extension to add decimal factor to order paid total value",
+  "authors":[
+    {
+      "name":"Andrey Makienko",
+      "email":"andrey.makienko@ssa-outsourcing.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
+}

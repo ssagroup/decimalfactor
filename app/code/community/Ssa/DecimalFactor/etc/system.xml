@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Andrey Makienko <andrey.makienko@ssa-outsourcing.com>
+ * @website     https://www.ssa.group
+ */
+-->
+<config>
+    <tabs>
+        <ssa_decimalfactor translate="label" module="ssa_decimalfactor">
+            <label>SSA Extension Modules</label>
+            <sort_order>100</sort_order>
+            <class>ssa-label</class>
+        </ssa_decimalfactor>
+    </tabs>
+    <sections>
+        <ssa_decimalfactor translate="label" module="ssa_decimalfactor">
+            <label>Decimal Factor</label>
+            <tab>ssa_decimalfactor</tab>
+            <class>ssa-tab</class>
+            <header_css>ssa-header</header_css>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <ssa_group translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <is_active translate="label">
+                            <label>Status</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>1</sort_order>
+                            <comment><![CDATA[If status is disabled module skips order changes.]]></comment>
+                        </is_active>
+                        <decimal_factor translate="label">
+                            <label>Decimal Factor</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>2</sort_order>
+                            <validate>validate-number</validate>
+                            <comment><![CDATA[Enter decimal value with dote separator<br /><em><b>For Example: 1.15</b></em>]]></comment>
+                        </decimal_factor>
+                        <upgrade_old_orders translate="label">
+                            <label>Cron Job Status</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>3</sort_order>
+                            <comment><![CDATA[If status is enabled magento run custom cron job calls "ssa_decimalfactor_queue" and insert valid order data to "ssa_decimal_factor" table.<br /><em><b>crontab settings 0 */12 * * *</b></em>]]></comment>
+                        </upgrade_old_orders>
+                    </fields>
+                </ssa_group>
+            </groups>
+        </ssa_decimalfactor>
+    </sections>
+</config>

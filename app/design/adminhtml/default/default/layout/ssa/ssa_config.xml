@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Andrey Makienko <andrey.makienko@ssa-outsourcing.com>
+ * @website     https://www.ssa.group
+ */
+-->
+<layout>
+    <adminhtml_system_config_edit>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/ssa/ssa_config.css</stylesheet>
+            </action>
+        </reference>
+    </adminhtml_system_config_edit>
+</layout>

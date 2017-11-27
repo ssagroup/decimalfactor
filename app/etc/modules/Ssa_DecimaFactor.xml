@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Andrey Makienko <andrey.makienko@ssa-outsourcing.com>
+ * @website     https://www.ssa.group
+ */
+-->
+<config>
+    <modules>
+        <Ssa_DecimalFactor>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Sales />
+                <Mage_Core />
+            </depends>
+        </Ssa_DecimalFactor>
+    </modules>
+</config>

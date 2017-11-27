@@ -1,0 +1,10 @@
+<!--
+/**
+ * @author      Andrey Makienko <andrey.makienko@ssa-outsourcing.com>
+ * @website     https://www.ssa.group
+ */
+-->
+ ul.tabs .ssa-label dt.label:after {
+
+    content:url('../../images/ssa/ssa_logo-sm.png');
+}
