@@ -3,7 +3,7 @@ This module represents an approach to observe field "paid_total" (`sales_flat_or
 # Features
  - Ability to change decimal factor
  - Ability to get actual data from old orders by cron
- - All changes store in separate table which allows to expand/change this table without any changes in core tables
+ - All changes are stored in a separate table which allows to expand/change this table without any changes in core tables
  
 # How to Install 
 
