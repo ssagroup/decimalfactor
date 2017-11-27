@@ -26,5 +26,5 @@ This module represents an approach to observe order paid total and change it by 
    modman clone git@github.com:ssagroup/testrepo.git
    ```
    
-   - Install this extension using Magento Connect account: Download source archive [here](https://github.com/ssagroup/testrepo) 
+   - Install this extension using Magento Connect account: Download source archive [here](https://github.com/ssagroup/decimalfactor) 
    and use your Magento Connect account to upload it. Notice: Don't forget to flush the Magento cache. 
