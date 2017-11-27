@@ -54,11 +54,11 @@ Get All Items (all rows)
 ```
 Mage::getModel('ssa_decimalfactor/factor')
 ->getCollection()
-->getAllItems()
+->getAllItems();
 ```
 Get All Items (only order_id row)
 ```
 Mage::getModel('ssa_decimalfactor/factor')
 ->getCollection()
-->getAllOrderIds()
+->getAllOrderIds();
 ```
