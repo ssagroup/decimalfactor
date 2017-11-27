@@ -29,7 +29,7 @@ This module represents an approach to observe order paid total and change it by 
    
 # Configuration
 
-Configuration can be done using the Administrator section of your Megento store. 
+Configuration can be done using the Administrator section of your Magento store. 
 Once Logged in, you will find the configuration settings under  **Settings > Configuration > SSA Extension Modules > Decimal Factor**
 ![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/SettingsMenu.png "settings")
 ![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/Settings.png "settings")
