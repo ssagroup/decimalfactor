@@ -23,7 +23,7 @@ This module represents an approach to observe order paid total and change it by 
    - Install this extension using [modman](https://github.com/colinmollenhour/modman):
    
    ```
-   modman clone git@github.com:ssagroup/testrepo.git
+   modman clone git@github.com:ssagroup/decimalfactor.git
    ```
    
    - Install this extension using Magento Connect account: Download source archive [here](https://github.com/ssagroup/decimalfactor) 
