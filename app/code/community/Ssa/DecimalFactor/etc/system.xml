@@ -41,7 +41,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <sort_order>1</sort_order>
-                            <comment><![CDATA[If status is disabled module skips order changes.]]></comment>
+                            <comment><![CDATA[If status is disabled, module skips order changes.]]></comment>
                         </is_active>
                         <decimal_factor translate="label">
                             <label>Decimal Factor</label>
@@ -51,7 +51,7 @@
                             <show_in_store>1</show_in_store>
                             <sort_order>2</sort_order>
                             <validate>validate-number</validate>
-                            <comment><![CDATA[Enter decimal value with dote separator<br /><em><b>For Example: 1.15</b></em>]]></comment>
+                            <comment><![CDATA[Enter decimal value with a dote separator<br /><em><b>For Example: 1.15</b></em>]]></comment>
                         </decimal_factor>
                         <upgrade_old_orders translate="label">
                             <label>Cron Job Status</label>
@@ -61,7 +61,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <sort_order>3</sort_order>
-                            <comment><![CDATA[If status is enabled magento run custom cron job calls "ssa_decimalfactor_queue" and insert valid order data to "ssa_decimal_factor" table.<br /><em><b>crontab settings 0 */12 * * *</b></em>]]></comment>
+                            <comment><![CDATA[If status is enabled, Magento runs custom cron job calls "ssa_decimalfactor_queue" and inserts valid order data to "ssa_decimal_factor" table.<br /><em><b>crontab settings 0 */12 * * *</b></em>]]></comment>
                         </upgrade_old_orders>
                     </fields>
                 </ssa_group>
