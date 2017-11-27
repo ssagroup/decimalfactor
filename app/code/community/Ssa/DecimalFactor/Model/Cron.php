@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * @author      Andrey Makienko <andrey.makienko@ssa-outsourcing.com>
+ * @website     https://www.ssa.group
+ */
 /**
  * Class Ssa_DecimalFactor_Model_Cron
  */
