@@ -27,6 +27,7 @@ class Ssa_DecimalFactor_Model_Resource_Factor_Collection extends Mage_Core_Model
             'total',
             'order_id'
         ]);
+		$select->group('main_table.order_id');
 
         $connection = $this->getResource()->getReadConnection();
         $itemsData = $connection->fetchAll($select);
@@ -42,6 +43,7 @@ class Ssa_DecimalFactor_Model_Resource_Factor_Collection extends Mage_Core_Model
         $select = $this->getSelect()->from([$this->getMainTable()],[
             'order_id'
         ]);
+		$select->group('main_table.order_id');
 
         $connection = $this->getResource()->getReadConnection();
         $itemsData = $connection->fetchAll($select);
