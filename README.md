@@ -21,7 +21,7 @@ This module represents an approach to observe field "paid_total" (`sales_flat_or
 
    - Install this extension using [modman](https://github.com/colinmollenhour/modman).
     Once you have modman installed, run `modman init` if you have not done this yet.
-    Next just run in the root of the Magento installation (`/var/www/magento`):
+    Next just run command in the root of the Magento installation (`/var/www/magento`):
    
    ```
    modman clone git://github.com/ssagroup/decimalfactor.git
