@@ -32,7 +32,7 @@ This module represents an approach to observe field "paid_total" (`sales_flat_or
 Configuration can be done using the Administrator section of your Magento store. 
 Once Logged in, you will find the configuration settings under  **Settings > Configuration > SSA Extension Modules > Decimal Factor**
 ![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/SettingsMenu.png "settings")
-![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/Settings.png "settings")
+![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/MainSettings.png "settings")
 
 **NOTE:** As default this extension uses settings from `config.xml` 
 ![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/DefaultSettings.png "settings")
