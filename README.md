@@ -50,13 +50,13 @@ This extension has additional methods to get data from any place of your Magento
 ```
 Mage::getModel('ssa_decimalfactor/factor')->getItemByOrderId($orderId);
 ```
-Get All Items (all rows)
+Get All Items (all rows):
 ```
 Mage::getModel('ssa_decimalfactor/factor')
 ->getCollection()
 ->getAllItems();
 ```
-Get All Items (only order_id row)
+Get All Items (only order_id row):
 ```
 Mage::getModel('ssa_decimalfactor/factor')
 ->getCollection()
