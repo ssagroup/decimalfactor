@@ -31,16 +31,16 @@ This module represents an approach to observe order paid total and change it by 
 
 Configuration can be done using the Administrator section of your Megento store. 
 Once Logged in, you will find the configuration settings under  **Settings > Configuration > SSA Extension Modules > Decimal Factor**
-![Alt text](https://github.com/ssagroup/decimalfactor/docs/SettingsMenu.png "settings")
-![Alt text](https://github.com/ssagroup/decimalfactor/docs/Settings.png "settings")
+![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/SettingsMenu.png "settings")
+![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/Settings.png "settings")
 
 **NOTE:** As default this extension using settings from `config.xml` 
-![Alt text](https://github.com/ssagroup/decimalfactor/docs/DefaultSettings.png "settings")
+![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/DefaultSettings.png "settings")
 
 # Additional Info
 
 This extension use cron job for getting data from old orders
-![Alt text](https://github.com/ssagroup/decimalfactor/docs/CronConfigSettings.png "cron settings")
+![Alt text](https://raw.githubusercontent.com/ssagroup/decimalfactor/master/docs/CronConfigSettings.png "cron settings")
 
 Cron extracts data in parts (as default CRON_BATCH = 100)
 
