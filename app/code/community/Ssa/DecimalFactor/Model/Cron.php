@@ -5,7 +5,7 @@
  */
 class Ssa_DecimalFactor_Model_Cron
 {
-    CONST SELECT_BUNCH = 100;
+    CONST SELECT_BATCH = 100;
 
     protected $_curStartPoint = 0;
 
@@ -19,9 +19,9 @@ class Ssa_DecimalFactor_Model_Cron
         if($this->getResourceModel()->getHelper()->getConfigHelper()->isCronJobAvailable()) {
             $ordersSelect = $this->getResourceModel()->getOldValidOrdersSelect();
             // use approach of partial execution from select
-            while ($rowCount = $ordersSelect->limit(self::SELECT_BUNCH, $this->_curStartPoint)->query()->rowCount()) {
+            while ($rowCount = $ordersSelect->limit(self::SELECT_BATCH, $this->_curStartPoint)->query()->rowCount()) {
                 $this->getResourceModel()->prepareDataToInsert($ordersSelect);
-                $this->_curStartPoint += self::SELECT_BUNCH;
+                $this->_curStartPoint += self::SELECT_BATCH;
             }
         }
     }

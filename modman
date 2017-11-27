@@ -1,0 +1,23 @@
+# 1-- Extension code dir
+# Magento Community Module     - Recursive Dir - Ssa/DecimalFactor
+app/code/community/Ssa/DecimalFactor app/code/community/Ssa/DecimalFactor
+
+# 2--- Backend layout
+# Magento User Interface       - File          -adminhtml/default/default/layout/ssa/ssa_config.xml
+app/design/adminhtml/default/default/layout/ssa/ssa_config.xml        app/design/frontend/base/default/layout/ssa/ssa_config.xml
+
+# 3--- Module enable XML
+# Magento Global Config        - File          - modules/Ssa_DecimalFactor.xml
+app/etc/modules/Ssa_DecimalFactor.xml                                app/etc/modules/Ssa_DecimalFactor.xml
+
+# 4--- Backend CSS file
+# Magento Theme Skin           - File          - adminhtml/default/default/css/ssa/ssa_config.css
+skin/adminhtml/default/default/css/ssa/ssa_config.css             skin/adminhtml/default/default/css/ssa/ssa_config.css
+
+# 5--- Backend image files
+# Magento Theme Skin           - Recursive Dir - adminhtml/default/default/images/ssa
+skin/adminhtml/default/default/images/ssa/             skin/adminhtml/default/default/images/ssa/
+
+# 6-- English translation
+# Magento Locale language      - File          - en_US/Ssa_DecimalFactor.csv
+app/locale/en_US/Ssa_DecimalFactor.csv                               app/locale/en_US/Ssa_DecimalFactor.csv

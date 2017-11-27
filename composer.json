@@ -2,6 +2,7 @@
   "name":"ssagroup/decimalfactor",
   "type":"magento-module",
   "license":"OSL-3.0",
+  "homepage": "https://github.com/ssagroup/decimalfactor",
   "description":"Magento extension to add decimal factor to order paid total value",
   "authors":[
     {
